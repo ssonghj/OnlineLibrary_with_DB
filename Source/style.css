@@ -1,0 +1,390 @@
+/*css 파일*/
+
+/*1. 메인화면*/
+/* 충대로고 */
+#logo{
+    position: absolute;
+    width: 542px;
+    height: 103px;
+    left: 50px;
+    top: 50px;
+}
+/*충남대 온라인 도서관 방문 환영합니다*/
+#main_title{
+    position: absolute;
+    width: 1109px;
+    height: 59px;
+    left: 600px;
+    top: 311px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+/*1.로그인 - 바디*/
+#logbody{
+    position: absolute;
+    width: 907px;
+    height: 611px;
+    left: 500px;
+    top: 232px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #4B99F4;
+    border-radius: 86px;
+}
+
+/*로그인 id*/
+#log_id{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: calc(50% - 250px);
+    top: 427px;
+    line-height: 70px;
+    text-align: center; 
+    font-size: 35px;
+    background: #5D5FEF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*로그인 - pw*/
+#log_id2{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    left: calc(50% - 250px);
+    top: 537px;
+    line-height: 70px;
+    text-align: center; 
+    font-size: 35px;
+    background: #5D5FEF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*id 입력란*/
+#id_text1{
+    position: absolute;
+    width: 450px;
+    height: 70px;
+    left: 850px;
+    top: 426px;
+    line-height: 70px;
+    text-align: left; 
+    font-size: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+/*pw 입력란*/
+#id_text2{
+    position: absolute;
+    width: 450px;
+    height: 70px;
+    left: 850px;
+    top: 540px;
+    line-height: 70px;
+    text-align: left; 
+    font-size: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+/*로그인 버튼*/
+#log_button{
+    position: absolute;
+    width: 164px;
+    height: 68px;
+    left: 900px;
+    top: 693px;
+    line-height: 68px;
+    text-align: center; 
+    font-size: 35px;
+    background: #7965C9;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*2. 로그인 후 화면*/
+#circle1{
+    position: absolute;
+    width: 433px;
+    height: 389px;
+    left: 400px;
+    top: 300px;
+    line-height: 389px;
+    text-align: center;
+    font-size: 70px;
+    color : white;
+    border-radius: 70px;
+    background: #5D5FEF;
+}
+
+#circle2{
+    position: absolute;
+    width: 433px;
+    height: 389px;
+    left: 1000px;
+    top: 300px;
+    text-align: center;
+    font-size: 70px;
+    color : white;
+    border-radius: 70px;
+    background: #5D5FEF;
+}
+
+#font_{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    background: none;
+    color: #FFFFFF;
+}
+
+#logout{
+    position: absolute;
+    width: 103px;
+    height: 46px;
+    left: 1600px;
+    top: 79px;
+    font-size: 20px;
+    color: white;
+    background: #7781E0;
+}
+
+/*3. 자료검색 화면*/
+#s_background{
+    position: absolute;
+    width: 251px;
+    height: 86px;
+    left: 0px;
+    top: 213px;
+    line-height: 86px;
+    text-align: center;
+    font-size: 50px;
+    color : white;
+    border-radius: 70px;
+    background: #7781E0;
+    border-radius: 10px;
+}
+
+#background{
+    z-index: -1;
+    position: absolute;
+    width: 1800px;
+    height: 1000px;
+    left: 0px;
+    top: 246px;
+    background: #4B99F4;
+}
+
+#background2{
+    position: absolute;
+    width: 1150px;
+    height: 499px;
+    left: 400px;
+    top: 363px;
+    border-radius: 20px;
+    background: #7781E0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#name{
+    position: absolute;
+    width: 163px;
+    height: 55px;
+    left: 500px;
+    top: 403px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 40px;
+    color : white;
+    border-radius: 20px;
+    background: #5D5FEF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#author{
+    position: absolute;
+    width: 163px;
+    height: 55px;
+    left: 500px;
+    top: 500px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 40px;
+    color : white;
+    border-radius: 20px;
+    background: #5D5FEF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#publisher{
+    position: absolute;
+    width: 163px;
+    height: 55px;
+    left: 500px;
+    top: 600px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 40px;
+    color : white;
+    border-radius: 20px;
+    background: #5D5FEF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#year{
+    position: absolute;
+    width: 163px;
+    height: 55px;
+    left: 500px;
+    top: 700px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 35px;
+    color : white;
+    border-radius: 20px;
+    background: #5D5FEF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*서명입력란*/
+#text1{
+    position: absolute;
+    width: 544px;
+    height: 55px;
+    left: 750px;
+    top: 403px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 35px;
+    background: white;
+}
+/*저자입력란*/
+#text2{
+    position: absolute;
+    width: 544px;
+    height: 55px;
+    left: 750px;
+    top: 500px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 35px;
+    background: white;
+}
+/*출판사입력란*/
+#text3{
+    position: absolute;
+    width: 544px;
+    height: 55px;
+    left: 750px;
+    top: 600px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 35px;
+    background: white;
+}
+/*검색 시작년도 입력란*/
+#text4{
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    left: 750px;
+    top: 700px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 35px;
+    background: white;
+}
+/*검색 마지막 년도 입력란*/
+#text5{
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    left: 1090px;
+    top: 700px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 35px;
+    background: white;
+}
+
+#search{
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 900px;
+    top: 770px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 40px;
+    color:whitesmoke;
+    background: #4042D0;
+    border-radius: 20px;
+}
+
+/*7.통계*/
+#s_background2{
+    position: absolute;
+    width: 251px;
+    height: 86px;
+    left: 0px;
+    top: 213px;
+    line-height: 86px;
+    text-align: center;
+    font-size: 35px;
+    color : white;
+    border-radius: 70px;
+    background: #7781E0;
+    border-radius: 10px;
+}
+#button_style1{
+    position: absolute;
+    width: 327px;
+    height: 316px;
+    left: 200px;
+    top: 481px;
+    line-height: 316px;
+    text-align: center;
+    font-size: 27px;
+    color : white;
+    background: #B69AF1;
+    border-radius: 50px;
+}
+
+#button_style2{
+    position: absolute;
+    width: 327px;
+    height: 316px;
+    left: 650px;
+    top: 481px;
+    line-height: 316px;
+    text-align: center;
+    font-size: 27px;
+    color : white;
+    background: #B69AF1;
+    border-radius: 50px;
+}
+
+#button_style3{
+    position: absolute;
+    width: 327px;
+    height: 316px;
+    left: 1100px;
+    top: 481px;
+    line-height: 316px;
+    text-align: center;
+    font-size: 27px;
+    color : white;
+    background: #B69AF1;
+    border-radius: 50px;
+}
